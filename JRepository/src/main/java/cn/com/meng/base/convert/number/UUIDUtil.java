@@ -1,4 +1,4 @@
-package cn.com.meng.base.util.convert.number;
+package cn.com.meng.base.convert.number;
 
 import java.util.UUID;
 

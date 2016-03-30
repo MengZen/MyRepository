@@ -1,4 +1,4 @@
-package cn.com.meng.base.util.string;
+package cn.com.meng.base.string;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

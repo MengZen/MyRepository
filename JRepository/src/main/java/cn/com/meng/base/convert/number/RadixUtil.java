@@ -1,4 +1,4 @@
-package cn.com.meng.base.util.convert.number;
+package cn.com.meng.base.convert.number;
 
 /**
  * 提供一系列进制转换工具

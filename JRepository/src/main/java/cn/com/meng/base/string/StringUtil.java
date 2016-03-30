@@ -1,4 +1,4 @@
-package cn.com.meng.base.util.string;
+package cn.com.meng.base.string;
 
 /**
  * 字符串工具类

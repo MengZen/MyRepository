@@ -1,4 +1,4 @@
-package cn.com.meng.base.util.convert.encoder;
+package cn.com.meng.base.convert.encoder;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
