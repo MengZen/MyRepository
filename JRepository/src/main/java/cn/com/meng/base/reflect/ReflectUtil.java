@@ -77,7 +77,7 @@ public class ReflectUtil {
 		}
 	}
 
-	public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+	public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 //		User user = (User) ReflectUtil.newInstance("cn.com.meng.base.example.bean.User");
 		User user = (User) ReflectUtil.newInstance(User.class);
 		user.setName("小明");
@@ -119,11 +119,12 @@ public class ReflectUtil {
 			//获取方法的返回类型
 			Class<?> returnType = method.getReturnType(); 
 			System.out.println(":"+returnType.getName());
-			//反射调用方法
-			if("setName".equals(method.getName())){
-				method.invoke(user, "小红");
-			}
+			
+			
 		}
+		//反射调用指定方法
+		Method m = User.class.getMethod("setName",String.class);
+		m.invoke(user, "小红");
 		System.out.println(user.getName());
 	}
 }

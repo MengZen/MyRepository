@@ -27,6 +27,7 @@ public class ObjectUtil {
 		try {
 			T obj = cls.newInstance();
 			BeanInfo info = Introspector.getBeanInfo(cls);
+			//使用内省对象
 			MethodDescriptor[] descriptors = info.getMethodDescriptors();
 			for (MethodDescriptor descriptor : descriptors) {
 				if (descriptor.getName().startsWith("set")) {
