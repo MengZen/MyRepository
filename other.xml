@@ -56,4 +56,17 @@
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />
   </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
+        <option value="http://https://192.168.28.103/svn/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82%E7%BB%9F%E4%B8%80%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0%E7%A0%94%E5%8F%91%E9%A1%B9%E7%9B%AE" />
+      </list>
+    </option>
+  </component>
 </application>
