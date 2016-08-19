@@ -37,6 +37,18 @@ public class PatternUtil {
 	}
 
 	/**
+     * 判断目标字符串是否存在匹配指定的正则表达式的子字符串
+     * @param patternStr 指定正则表达式
+     * @param srcStr 目标字符串
+     * @return true有 false无
+     */
+    public static boolean isIn(String patternStr,String srcStr){
+        Pattern p = Pattern.compile(patternStr);
+        Matcher m = p.matcher(srcStr);
+        return m.find();
+    }
+    
+	/**
 	 * 跟进指定模式分裂字符串
 	 * 
 	 * @param patternStr
@@ -101,6 +113,9 @@ public class PatternUtil {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("do.kk=ll.uu".replaceAll("(.*)=(.*)", "$1"));
+		String str = "http://localhost:8180/survey/management/questionnaire/list/1";
+		System.out.println(PatternUtil.isIn("/management/questionnaire/*", str));
 		System.out.println(PatternUtil.match(PatternUtil.Email, "zhengdongxing@bmsoft.com.cn"));
 	}
 }

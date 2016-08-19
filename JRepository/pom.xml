@@ -6,6 +6,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JRepository</name>
 	<dependencies>
+		<!-- junit -->
+		<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
 		<!-- oracle jdbc -->
 		<dependency>
 			<groupId>ojdbc</groupId>
@@ -24,6 +31,18 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.7.2</version>
 		</dependency>
+		<!-- Rest-Assured -->
+		<dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>2.4.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>RELEASE</version>
+        </dependency>
 		<!-- json -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -51,6 +70,23 @@
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
 		</dependency>
+		<!--log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!-- beanmap -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+		<dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>
