@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="171e700d-070b-4a79-9db4-b1a9fbb48911" name="remote143" url="http://192.168.25.143:8180">
-        <fileTransfer host="192.168.25.143" port="22" rootFolder="/home/meng/app/tomcat7/webapps" accessType="SFTP" password="df9adf9bdf9bdf98" username="meng">
+      <webServer id="171e700d-070b-4a79-9db4-b1a9fbb48911" name="remote166" url="http://192.168.25.166:8180">
+        <fileTransfer host="192.168.25.166" port="22" rootFolder="/home/meng/app/tomcat7/webapps" accessType="SFTP" password="df9adf9bdf9bdf98" username="meng">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
