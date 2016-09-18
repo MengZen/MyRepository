@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="7811ce58-366c-4ae2-825a-813819d044f6" name="remote-credit" url="http://192.168.21.46:8787">
+        <fileTransfer host="192.168.21.46" port="22" rootFolder="/home/bmsoft/app/apache-tomcat-credit/webapps" accessType="SFTP" password="dfc8dfc7dfd9dfc5dfccdfde" username="bmsoft">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
