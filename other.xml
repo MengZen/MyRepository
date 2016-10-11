@@ -56,12 +56,14 @@
   <component name="SvnApplicationSettings">
     <option name="myCheckoutURLs">
       <list>
+        <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
         <option value="https://192.168.28.103/svn/信用项目" />
         <option value="https://192.168.28.103/svn/政务服务平台/" />
       </list>
     </option>
     <option name="myTypedURLs">
       <list>
+        <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
         <option value="https://192.168.28.103/svn/信用项目" />
         <option value="https://192.168.28.103/svn/政务服务平台/" />
       </list>
