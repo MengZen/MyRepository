@@ -60,6 +60,7 @@
   <component name="SvnApplicationSettings">
     <option name="myCheckoutURLs">
       <list>
+        <option value="https://10.194.186.15/svn/智慧城市统一服务平台研发项目/工作区/02 开发过程/05编码实现/ESB/branch/" />
         <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
         <option value="https://192.168.28.103/svn/信用项目" />
         <option value="https://192.168.28.103/svn/政务服务平台/" />
@@ -67,6 +68,9 @@
     </option>
     <option name="myTypedURLs">
       <list>
+        <option value="https://10.194.186.15/svn/智慧城市统一服务平台研发项目/工作区/02 开发过程/05编码实现/ESB/branch/" />
+        <option value="https://10.194.186.15/svn/" />
+        <option value="https://10.194.186.15/svn" />
         <option value="https://192.168.28.103/svn/智慧城市统一服务平台研发项目" />
         <option value="https://192.168.28.103/svn/信用项目" />
         <option value="https://192.168.28.103/svn/政务服务平台/" />
