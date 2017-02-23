@@ -56,6 +56,7 @@
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
   </component>
   <component name="SvnApplicationSettings">
     <option name="myCheckoutURLs">
