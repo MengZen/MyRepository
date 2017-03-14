@@ -1,7 +1,10 @@
 <application>
   <component name="FindSettings">
+    <option name="customScope" value="Project 'smartcity_govnet_szga'" />
+    <option name="defaultScopeName" value="Project 'smartcity_govnet_szga'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'smartcity_govnet_szga'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
