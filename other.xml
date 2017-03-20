@@ -78,4 +78,8 @@
       </list>
     </option>
   </component>
+  <component name="WebServicesPluginSettings" SelectedPlatform="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2">
+    <StubPackage>com.bms.rbac.webservice</StubPackage>
+    <StubUrl>http://139.199.223.78:8080/rbac/ws/userServiceWS?wsdl</StubUrl>
+  </component>
 </application>
